@@ -28,6 +28,10 @@ app.use(express.json());
 // Routes
 app.use('/notes', notesRoute);
 
+app.get('/', (req, res) => {
+    res.send("Home");
+} )
+
 
 app.listen(port, () => {
     console.log(`Listening at ${port}...`);

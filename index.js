@@ -16,7 +16,7 @@ mongoose.connect(mongoUrl)
 
 
 const corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'https://main--startling-peony-235010.netlify.app/',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
 };
 
